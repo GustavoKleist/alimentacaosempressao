@@ -9,6 +9,9 @@ export default component$(() => {
         <h2>Este site está em processo de construção sem pressão.</h2>
         <h4>Enquanto isso você pode me acompanhar pelos canais abaixo.</h4>
       </div>
+      <div class="contact">
+        <h3>Siga esse link para o receber um planner exclusivo!</h3>
+      </div>
       <div class="social">
         <a
           href="https://www.instagram.com/alimentacaosempressao/"
@@ -19,7 +22,7 @@ export default component$(() => {
             layout="constrained"
             width={250}
             height={250}
-            alt="A lovely bath"
+            alt="Instagram image"
           />
         </a>
         <a href="https://wa.me/message/QN66BTAFTB2HO1" target="_blank">
@@ -28,7 +31,7 @@ export default component$(() => {
             layout="constrained"
             width={250}
             height={250}
-            alt="A lovely bath"
+            alt="Whats app image"
           />
         </a>
       </div>

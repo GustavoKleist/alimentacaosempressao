@@ -25,7 +25,7 @@ export default component$(() => {
         <script
           async
           type="text/partytown"
-          src="https://www.googletagmanager.com/gtag/js?id=G-WQQ5ZQRC"
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-WQQ5ZQRC"
         />
         <script
           type="text/partytown"
@@ -35,7 +35,7 @@ export default component$(() => {
             dataLayer.push(arguments);
           }
           gtag('js', new Date());
-          gtag('config', 'G-WQQ5ZQRC');
+          gtag('config', 'GTM-WQQ5ZQRC');
           `}
         />
         <RouterHead />
