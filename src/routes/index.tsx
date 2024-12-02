@@ -9,8 +9,8 @@ export default component$(() => {
         <h2>Este site está em processo de construção sem pressão.</h2>
         <h4>Enquanto isso você pode me acompanhar pelos canais abaixo.</h4>
       </div>
-      <div class="contact">
-        <h3>Siga esse link para o receber um planner exclusivo!</h3>
+      <div class="social">
+        <h5>Siga esse link para o receber um planner exclusivo!</h5>
       </div>
       <div class="social">
         <a
