@@ -1,7 +1,6 @@
-import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-import { Image } from '@unpic/qwik';
-
+import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
+import { Image } from "@unpic/qwik";
 
 export default component$(() => {
   return (
@@ -11,7 +10,10 @@ export default component$(() => {
         <h4>Enquanto isso você pode me acompanhar pelos canais abaixo.</h4>
       </div>
       <div class="social">
-        <a href="https://www.instagram.com/alimentacaosempressao/" target="_blank">
+        <a
+          href="https://www.instagram.com/alimentacaosempressao/"
+          target="_blank"
+        >
           <Image
             src="/images/ig.jpeg"
             layout="constrained"
@@ -35,11 +37,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Alimentação Sem Pressão',
+  title: "Alimentação Sem Pressão",
   meta: [
     {
-      name: 'description',
-      content: 'Alimentação Sem Pressão',
+      name: "description",
+      content: "Alimentação Sem Pressão",
     },
   ],
 };

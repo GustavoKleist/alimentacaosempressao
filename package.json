@@ -20,11 +20,12 @@
     "preview": "qwik build preview && vite preview --open",
     "serve": "wrangler pages dev ./dist",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-07-26 -- npm run dev",
-    "pages:deploy": "npm run build && npm run deploy"
+    "pages:deploy": "npm run build && npm run deploy",
+    "qwik": "qwik"
   },
   "devDependencies": {
+    "@builder.io/partytown": "^0.8.0",
     "@builder.io/qwik": "^1.1.5",
     "@builder.io/qwik-city": "^1.1.5",
     "@types/eslint": "8.40.0",
