@@ -2,9 +2,9 @@
 
 /* SHELL ---------------------------------------- */
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
@@ -87,6 +87,10 @@ h3 {
 }
 .container.container-spacing-xl {
   padding: 50px 40px;
+}
+
+.link {
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -179,7 +183,7 @@ button.button-small {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 25px
+    gap: 25px;
   }
 }
 
@@ -187,7 +191,7 @@ button.button-small {
 .icon:before {
   width: 18px;
   height: 18px;
-  content: '';
+  content: "";
   display: inline-block;
   margin-right: 20px;
   position: relative;

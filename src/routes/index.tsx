@@ -8,9 +8,18 @@ export default component$(() => {
       <div class="container">
         <h2>Este site está em processo de construção sem pressão.</h2>
         <h4>Enquanto isso você pode me acompanhar pelos canais abaixo.</h4>
-      </div>
-      <div class="social">
-        <h5>Siga esse link para o receber um planner exclusivo!</h5>
+        <div class="social">
+          <a
+            href="https://chk.eduzz.com/60EB4XY603"
+            target="_blank"
+            class="link"
+          >
+            <h4>
+              E clicar aqui para o receber um maravilhoso Guia de Hábitos
+              Gentis!
+            </h4>
+          </a>
+        </div>
       </div>
       <div class="social">
         <a
